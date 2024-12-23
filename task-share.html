@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>課題の共有</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>課題の共有</h1>
+  </header>
+
+  <section class="task-share">
+    <div class="shared-task">
+      <h2>他の人の課題</h2>
+      <p>進捗状況: 80%</p>
+      <div class="shared-content">
+        <p>テキスト内容:</p>
+        <p>「C言語のHello Worldプログラムの解答例」</p>
+        <p>画像内容:</p>
+        <img src="example-task-image.png" alt="課題の共有画像">
+      </div>
+    </div>
+
+    <div class="share-your-task">
+      <h2>自分の課題を共有する</h2>
+      <form>
+        <label for="task-text">課題内容（テキスト）:</label>
+        <textarea id="task-text" name="task-text" rows="4" cols="50"></textarea>
+        <label for="task-image">課題内容（画像）:</label>
+        <input type="file" id="task-image" name="task-image">
+        <button type="submit">共有する</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
