@@ -1,0 +1,1 @@
+let HelloWord = "0000";
